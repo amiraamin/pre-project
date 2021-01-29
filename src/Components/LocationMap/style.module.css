@@ -1,0 +1,25 @@
+.smallMap{
+    cursor: pointer;
+    transition: transform 1.5s;
+
+}
+.maxBox{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.54);
+}
+.miniBox
+{
+    width: 70%;
+    height: 500px;
+    background-size: cover;
+    background-image: url('../../../src/img/map2.jpg');
+    margin:auto;
+
+}
+.smallMap:hover{
+    transform: scale(1.2,1.2);
+}

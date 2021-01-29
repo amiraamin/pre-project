@@ -1,0 +1,19 @@
+.allMain{
+background-color: brown;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.allMain{
+    position: relative;
+        background-image: url(../../../src/img/madina.jpg);
+        background-size: cover;
+        height: 350px;
+        background-attachment: fixed;
+
+}
