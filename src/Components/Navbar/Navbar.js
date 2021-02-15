@@ -3,7 +3,6 @@ import {Link, NavLink} from 'react-router-dom'
 class Navbar extends Component {
    
     render() {
-      z=20;
         return(
 <Fragment>
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
